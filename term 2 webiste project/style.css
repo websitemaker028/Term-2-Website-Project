@@ -1,0 +1,59 @@
+	body {
+		background-color: #4CAF50;
+		background-image: url('violin.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		font-family: Libre Baskerville;
+		}
+
+	.container {
+			width: 700px;
+			border: 10px solid #000;
+			margin-left: auto;
+			margin-right: auto;
+			height: 412px;
+			}
+
+	.content {
+		width: 660px;
+		padding: 20px;
+		background-color: lavender;
+		}
+			
+	h1 {
+		font-family: Libre Baskerville;
+		}
+
+	p {	
+		line-height: 1.5em;
+		font-size: 14pt;
+		}
+			
+	ul {
+		list-style-type: none;
+		padding:0;
+		margin: 0;
+		overflow: hidden;
+		background-color: orange;
+		}
+			
+	li {
+		float: left;
+		width: 175px;
+		}
+			
+	li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		}
+			
+	li a:hover:not(.current){
+		background-color: lavender;
+		}
+			
+	.current {
+			background-color: lavender;
+			}
