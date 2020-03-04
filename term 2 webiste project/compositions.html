@@ -5,29 +5,32 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
 	<style>
-		h1 {
-			margin-left: 200px;
+		.container {
+		   height: 1000px;
+		   background-color: lavender;
 		}
-		div.gallery {
-					margin: 5px;
-					border: 1px solid #ccc;
-					float: left;
-					width: 180px;
-					}
-
+	
 		div.gallery:hover {
-							border: 1px solid #777;
-							}
-
-		div.gallery img {
-					width: 100%;
-					height: auto;
+					border: 1px solid #777;
 					}
 
 		div.desc {
 				padding: 15px;
-				text-align: center;
+				text-align: left;
+				width: 280px;
 				}
+				
+		div.gallery {
+					border: 1px solid #ccc;
+					width: 280px;
+					padding: 20px;
+					
+					float: left;
+					}
+					
+		h1 {
+			margin-left: 230px;
+		}
 	
 	</style>
 	
@@ -46,6 +49,35 @@
 		
 			<h1>Compositions</h1>
 			
+			<div class="gallery">
+			<a target="_blank" href="fur-elise.jpg">
+			<img src="fur-elise.jpg" alt="fur-elise" width="275" height="350">
+			</a>
+			<div class="desc">Whether they're a musician or not, Beethoven's Fur Elise is a piece that 
+			all people can recognize.</div>
+			</div>
+
+			<div class="gallery">
+			<a target="_blank" href="eine-kleine.png">
+			<img src="eine-kleine.png" alt="eine-kleine" width="275" height="350">
+			</a>
+			<div class="desc">Composed by Mozart, this orchestral piece will forever remain a recognizable tune.</div>
+			</div>
+
+			<div class="gallery">
+			<a target="_blank" href="four-seasons.jpg">
+			<img src="four-seasons.jpg" alt="four-seasons" width="275" height="350">
+			</a>
+			<div class="desc">The Four Seasons, composed by Vivaldi, is a combination of 4 violin concerti.</div>
+			</div>
+
+			<div class="gallery">
+			<a target="_blank" href="campanella.jpg">
+			<img src="campanella.jpg" alt="campanella" width="275" height="350">
+			</a>
+			<div class="desc">An extremely virtuosic piece by Paganini, the Campanella is the perfect opportunity
+			for a musician to showcase their skill and talent.</div>
+			</div>
 			
 		</div>
 	</div>
