@@ -12,13 +12,15 @@
 			border: 10px solid #000;
 			margin-left: auto;
 			margin-right: auto;
-			height: auto; 
+			clear: both;
+			display: block;
+			background-color: #f2bb7b;
 			}
 
 	.content {
 		width: 660px;
 		padding: 20px;
-		background-color: lavender;
+		background-color: #f2bb7b;
 		}
 			
 	h1 {
@@ -51,9 +53,9 @@
 		}
 			
 	li a:hover:not(.current){
-		background-color: lavender;
+		background-color: #c2720f;
 		}
 			
 	.current {
-			background-color: lavender;
+			background-color: #f2bb7b;
 			}
